@@ -2,7 +2,7 @@
   "name": "mobx-storage",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/mobx-storage.min.js",
   "scripts": {
     "clean": "rimraf lib dist",
     "build:lib": "babel src --out-dir lib",
@@ -19,7 +19,7 @@
   "keywords": [
     "mobx"
   ],
-  "author": "",
+  "author": "Valentin Blokhin <blokhinvalentin@gmail.com> (https://github.com/ValentinBlokhin)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ValentinBlokhin/mobx-storage/issues"
@@ -50,7 +50,8 @@
   },
   "peerDependencies": {
     "react-native": "^0.50.x",
-    "mobx": ">=4.0.0"
+    "mobx": ">=4.0.0",
+    "prop-types": "*"
   },
   "npmName": "mobx-storage",
   "npmFileMap": [
