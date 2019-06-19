@@ -1,8 +1,8 @@
 {
   "name": "mobx-storage",
-  "version": "0.0.1",
-  "description": "",
-  "main": "dist/mobx-storage.min.js",
+  "version": "0.0.2",
+  "description": "mobx storage utilizing RootStore pattern",
+  "main": "index.js",
   "scripts": {
     "clean": "rimraf lib dist",
     "build:lib": "babel src --out-dir lib",
