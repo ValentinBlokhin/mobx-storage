@@ -1,5 +1,8 @@
 import asyncThunk from './async-thunk';
+import PersistGate from './components/PersistGate';
 
-export { default as PersistGate } from './components/PersistGate';
 
-export default asyncThunk;
+module.exports = {
+  AsyncThunk: asyncThunk,
+  PersistGate
+}

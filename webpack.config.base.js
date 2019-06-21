@@ -11,7 +11,7 @@ module.exports = {
   },
   entry: './src/index.js',
   output: {
-    library: 'Storage',
+    library: 'mobx-storage',
     libraryTarget: 'umd'
   },
   resolve: {

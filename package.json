@@ -1,8 +1,8 @@
 {
   "name": "mobx-storage",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "mobx storage utilizing RootStore pattern",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "clean": "rimraf lib dist",
     "build:lib": "babel src --out-dir lib",
@@ -53,13 +53,5 @@
     "mobx": ">=4.0.0",
     "prop-types": "*"
   },
-  "npmName": "mobx-storage",
-  "npmFileMap": [
-    {
-      "basePath": "/dist/",
-      "files": [
-        "*.js"
-      ]
-    }
-  ]
+  "npmName": "mobx-storage"
 }

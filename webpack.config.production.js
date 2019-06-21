@@ -25,7 +25,7 @@ var prodConfig = {
     ]
   },
   output: {
-    filename: '../index.js'
+    filename: 'mobx-storage.min.js'
   }
 };
 
